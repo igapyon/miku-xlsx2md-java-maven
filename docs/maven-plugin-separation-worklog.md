@@ -45,8 +45,8 @@ This document records the local separation work for `miku-xlsx2md-java-maven`.
   dependency.
 - This repository does not use `../miku-xlsx2md-java` as a reactor module,
   submodule, subtree, or build input.
-- The old runtime repository module still exists at the time of this work and
-  is intentionally left for a separate runtime-side cleanup.
+- The old runtime repository module has been removed from `miku-xlsx2md-java`.
+  This repository owns Maven plugin adapter behavior.
 
 ## Verification Performed
 
