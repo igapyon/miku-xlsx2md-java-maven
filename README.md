@@ -18,7 +18,7 @@ is required for direct invocation.
 Convert one XLSX file:
 
 ```bash
-mvn jp.igapyon:miku-xlsx2md-maven-plugin:0.9.0:convert \
+mvn jp.igapyon:miku-xlsx2md-maven-plugin:1.0.0:convert \
   -Dmiku-xlsx2md.inputFile=book.xlsx \
   -Dmiku-xlsx2md.outputFile=target/generated-markdown/book.md
 ```
@@ -26,7 +26,7 @@ mvn jp.igapyon:miku-xlsx2md-maven-plugin:0.9.0:convert \
 Convert XLSX files in one directory:
 
 ```bash
-mvn jp.igapyon:miku-xlsx2md-maven-plugin:0.9.0:convert-directory \
+mvn jp.igapyon:miku-xlsx2md-maven-plugin:1.0.0:convert-directory \
   -Dmiku-xlsx2md.inputDirectory=workbooks \
   -Dmiku-xlsx2md.outputDirectory=target/generated-markdown \
   -Dmiku-xlsx2md.recursive=true
@@ -48,7 +48,7 @@ mvn -f ../miku-xlsx2md-java/pom.xml install
 ```
 
 This installs the CLI/runtime jar as the Maven artifact
-`jp.igapyon:miku-xlsx2md:0.9.0` in the local Maven repository. The plugin uses
+`jp.igapyon:miku-xlsx2md:1.0.0` in the local Maven repository. The plugin uses
 that jar as a library dependency while the same jar can also be run with
 `java -jar` as the CLI runtime.
 
@@ -64,7 +64,7 @@ coordinate commands shown in Usage.
 The plugin depends on the runtime artifact by Maven coordinates:
 
 ```text
-jp.igapyon:miku-xlsx2md:0.9.0
+jp.igapyon:miku-xlsx2md:1.0.0
 ```
 
 It does not use a source-tree dependency on `miku-xlsx2md-java`.
