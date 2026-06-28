@@ -3,7 +3,7 @@
 This Maven plugin version is aligned with the Java runtime artifact:
 
 ```text
-jp.igapyon:miku-xlsx2md:1.0.0
+jp.igapyon:miku-xlsx2md:1.2.3
 ```
 
 The runtime jar is both:

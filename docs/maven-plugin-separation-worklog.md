@@ -41,7 +41,7 @@ This document records the local separation work for `miku-xlsx2md-java-maven`.
 
 ## Boundary Notes
 
-- This repository uses `jp.igapyon:miku-xlsx2md:1.0.0` as a normal Maven
+- This repository uses `jp.igapyon:miku-xlsx2md:1.2.3` as a normal Maven
   dependency.
 - This repository does not use `../miku-xlsx2md-java` as a reactor module,
   submodule, subtree, or build input.
